@@ -4,7 +4,7 @@ for (let i = 0; i < 50; i++) {
   particle.classList.add('particle')
   particle.style.left = `${Math.random() * 100}%`
   particle.style.top = `${Math.random() * 100}%`
-  particle.style.animationDelay = `${i * 8}s`
+  particle.style.animationDelay = `${i * 0.1}s`
   particle.style.width = `${Math.random() * 6 + 2}px`
   particle.style.height = particle.style.width
 
